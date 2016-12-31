@@ -13,7 +13,7 @@ try:
         if len(lista)==24:
             result = True
         
-    print str(len(lista))
+
     for x in lista:
         index = x.index('&')
         slink = x[0:index]
